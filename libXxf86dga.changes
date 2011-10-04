@@ -1,0 +1,22 @@
+* Mon Jun 13 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.1.2
+- Updated to 1.1.2
+
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.1.1
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Fri Dec 11 2009 Arjan van de Ven <arjan@linux.intel.com> 1.1.1
+- libXxf86dga 1.1.1
+
+* Thu Dec 18 2008 Arjan van de Ven <arjan@linux.intel.com> 1.0.2
+- Fix build requires
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.0.2
+- Update spec file using latest spec-builder
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.0.2
+- Update spec file using latest spec-builder
+
+* Thu Dec 11 2008 Arjan van de Ven <arjan@linux.intel.com> 1.0.2
+- Clean up specfile
+

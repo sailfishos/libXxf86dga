@@ -1,0 +1,28 @@
+Name: libXxf86dga
+Summary: X.Org X11 libXxf86dga runtime library
+Description: |
+    Client library for the XFree86-DGA extension.
+Version: 1.1.2
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org/
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+
+PkgConfigBR:
+    - xorg-macros
+    - xproto
+    - x11
+    - xext
+    - xextproto
+    - xext
+    - xf86dgaproto >= 2.0.99.2
+Configure: reconfigure
+SubPackages:
+    - Name: devel
+      Summary: Development components for the libXxf86dga library
+      Description: |
+          Client development library for the XFree86-DGA extension.
+      Group: Development/Libraries
+
